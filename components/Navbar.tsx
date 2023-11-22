@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function Navbar() {
   return (
-    <nav className='container absolute flex items-center justify-between py-5'>
+    <nav className='container absolute top-0 left-0 right-0 flex items-center justify-between py-5'>
       <div className='w-full md:w-4/12 lg:w-5/12 flex justify-center md:justify-start'>
         <Link href='/'>
           <Image
@@ -14,7 +14,7 @@ function Navbar() {
           />
         </Link>
       </div>
-      <div className='hidden md:block md:w-8/12 lg:w-7/12'>
+      <div className='hidden md:block md:w-8/12 lg:w-7/12 justify-end'>
         <div className='flex justify-between uppercase font-medium text-sm text-white/80 tracking-widest'>
           <Link href='/'>Layanan Kami</Link>
           <Link href='/'>Alur Kerja</Link>
