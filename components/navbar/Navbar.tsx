@@ -1,16 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from './ui/sheet';
-import { Button } from './ui/button';
-import { AlignRight, Figma, Github, Instagram } from 'lucide-react';
-import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
+import { Sheet, SheetContent, SheetTrigger } from '../ui/sheet';
+import { Button } from '../ui/button';
+import { AlignRight } from 'lucide-react';
 
 function Navbar() {
   return (
