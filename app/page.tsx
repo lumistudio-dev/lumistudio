@@ -1,5 +1,11 @@
 import Banner from '@/components/Banner';
+import OurServices from '@/components/OurServices';
 
 export default function Home() {
-  return <Banner />;
+  return (
+    <div>
+      <Banner />
+      <OurServices />
+    </div>
+  );
 }
