@@ -34,10 +34,10 @@ function OurServices() {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 row-span-1 col-span-2 lg:col-span-1 lg:row-span-2 w-full h-full bg-[#36B8E8]'>
-          <div className='w-full h-full'>
+          <div className='w-full h-full md:col-start-2'>
             <Image src='/assets/2.jpg' alt='logo' width={1000} height={1000} />
           </div>
-          <div className='px-6 py-10 md:py-5 flex flex-col gap-5'>
+          <div className='px-6 py-10 md:py-5 flex flex-col gap-5 md:row-start-1 lg:row-start-2 md:col-start-1 lg:col-start-2'>
             <div className='font-bold text-4xl text-white'>
               Instagram Content Design
               <br />
@@ -54,7 +54,10 @@ function OurServices() {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 col-span-2 w-full h-full bg-[#36B8E8]'>
-          <div className='px-6 py-10 flex flex-col my-auto gap-5'>
+          <div className='w-full h-full lg:col-start-2'>
+            <Image src='/assets/3.jpg' alt='logo' width={1000} height={1000} />
+          </div>
+          <div className='px-6 py-10 flex flex-col my-auto gap-5 lg:row-start-1 lg:col-start-1'>
             <div className='font-bold text-4xl text-white'>
               Instagram Ads Management
             </div>
@@ -65,9 +68,6 @@ function OurServices() {
             <div>
               <Button variant={'secondary'}>Hubungi Kami</Button>
             </div>
-          </div>
-          <div className='w-full h-full'>
-            <Image src='/assets/3.jpg' alt='logo' width={1000} height={1000} />
           </div>
         </div>
       </div>
