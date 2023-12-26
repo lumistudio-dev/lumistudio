@@ -2,6 +2,7 @@ import Banner from '@/components/Banner';
 import OurServices from '@/components/OurServices';
 import About from '@/components/about/About';
 import Portfolio from '@/components/portfolio/Portfolio';
+import Team from '@/components/team/Team';
 import WhyUs from '@/components/why/WhyUs';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Portfolio />
       <WhyUs />
       <About />
+      <Team />
     </div>
   );
 }
