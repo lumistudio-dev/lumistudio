@@ -14,7 +14,7 @@ function WhyUs() {
               Kenapa harus Kami?
             </div>
           </div>
-          <div className='grid grid-cols-3 gap-10 gap-y-16'>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 gap-y-16'>
             <div className='flex flex-col py-12 px-8 bg-white rounded-lg items-center relative'>
               <div className='py-3 px-3 bg-primary text-white border-[6px] border-[#0CAAE3] rounded-full absolute -top-8 left-1/2 -translate-x-1/2'>
                 <CircleDollarSign className='w-7 h-7' />
@@ -59,7 +59,7 @@ function WhyUs() {
               </div>
             </div>
 
-            <div className='flex flex-col col-start-2 py-12 px-8 bg-white rounded-lg items-center relative'>
+            <div className='flex flex-col lg:col-start-2 py-12 px-8 bg-white rounded-lg items-center relative'>
               <div className='py-3 px-3 bg-primary text-white border-[6px] border-[#0CAAE3] rounded-full absolute -top-8 left-1/2 -translate-x-1/2'>
                 <Lightbulb className='w-7 h-7' />
               </div>
