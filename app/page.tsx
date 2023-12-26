@@ -3,6 +3,7 @@ import OurServices from '@/components/OurServices';
 import About from '@/components/about/About';
 import Portfolio from '@/components/portfolio/Portfolio';
 import Team from '@/components/team/Team';
+import Testimonial from '@/components/testimonial/Testimonial';
 import WhyUs from '@/components/why/WhyUs';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <WhyUs />
       <About />
       <Team />
+      <Testimonial />
     </div>
   );
 }
