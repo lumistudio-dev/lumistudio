@@ -13,7 +13,7 @@ import {
 function Testimonial() {
   return (
     <div className='bg-[#36B8E8]'>
-      <div className='container py-16'>
+      <div className='container pt-16 pb-72 md:pb-60'>
         <div className='flex flex-col items-center mb-5'>
           <div className='mb-2'>
             <Badge variant='secondary'>Testimonials</Badge>

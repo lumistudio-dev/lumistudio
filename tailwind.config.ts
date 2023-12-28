@@ -74,6 +74,7 @@ module.exports = {
       },
       backgroundImage: {
         pattern: "url('/assets/pattern.svg')",
+        cta: "url('/assets/cta.svg')",
       },
     },
   },
